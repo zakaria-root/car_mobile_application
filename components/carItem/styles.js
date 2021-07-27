@@ -10,8 +10,8 @@ const styles = StyleSheet.create({
         textAlign: 'center',
       },
       title: {
-        fontSize: 35,
-        fontWeight: '500'
+        fontSize: 32,
+        fontWeight: '550'
       },
       image:{
         width : '100%',

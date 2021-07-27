@@ -5,8 +5,7 @@ import CarItem from './components/carItem';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>dqshdlqshk</Text>
-      <CarItem />
+      <CarItem  type="primary"/>
     </View>
   );
 }
