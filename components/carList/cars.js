@@ -8,7 +8,7 @@ export default [{
     taglineCTA: 'Touchless Delivery',
     image: require('../../assets/images/v3.jpg'),
   }, {
-    name: 'Porsche 911 GT3',
+    name: 'GT3',
     tagline: 'Order Online for',
     taglineCTA: 'Touchless Delivery',
     image: require('../../assets/images/v2.jpg'),

@@ -2,7 +2,7 @@ import React from 'react';
 import {Text, View,ImageBackground} from 'react-native';
 import styles from './styles';
 import StyleButton from '../styleButton'
-import Header from '../header';
+
 const carItem = (props) => {
 
   const {name, tagline, taglineCTA, image} =  props.car;
@@ -10,7 +10,7 @@ const carItem = (props) => {
     return(
       
         <View style={styles.carContainer}>
-          <Header/>
+          
       <ImageBackground 
         source={image} 
         style={styles.image}
@@ -27,14 +27,14 @@ const carItem = (props) => {
       type="primery"
       content="custem order"
       onpress={() => {
-        alert('custom orderr was pressed')
+        console.warn('custom orderr was pressed')
       }}
       />
 
       <StyleButton type="secandary"
       content="existing inventery"
       onpress={() => {
-        alert('existing inventery was pressed')
+        console.warn('existing inventery was pressed')
       }}
       />
       </View>

@@ -7,12 +7,12 @@ const styles = StyleSheet.create({
     button:{
         margin : 6,
         height: 32,
-        textAlign: 'center',
         borderRadius: 50,
         justifyContent:"center",
         
     },
     text: {
+        textAlign: 'center',
         fontSize: 11,
         fontWeight: '500',
         textTransform : 'uppercase',

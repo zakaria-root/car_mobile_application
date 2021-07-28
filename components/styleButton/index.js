@@ -6,7 +6,7 @@ const styleButton = (props) => {
     
     const {type, content, onpress} = props;
 
-    const backgroundColor = type === 'primery' ? '#4c4b4bf2' : '#dcdbdbf2';
+    const backgroundColor = type === 'primery' ? '#a00132db' : '#c1c1c1d4';
     const color = type === 'primery' ? '#dcdbdbf2' : '#4c4b4bf2';
 return(
     <View Style={styles.container} >

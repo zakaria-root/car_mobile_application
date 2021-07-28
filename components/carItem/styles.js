@@ -4,14 +4,17 @@ const styles = StyleSheet.create({
     carContainer: {
         width: '100%',
         height:  Dimensions.get("window").height,
+        
       },
       titles: {
         marginTop: "25%",
-        textAlign: 'center',
+        
       },
       title: {
-        fontSize: 32,
-        fontWeight: '550'
+        fontSize: 40,
+        fontWeight: '500',
+        textAlign: 'center',
+        textTransform: "uppercase"
       },
       image:{
         width : '100%',
@@ -21,16 +24,18 @@ const styles = StyleSheet.create({
       },
       buttonContainer:{
         position:'absolute',
-        bottom : 25,
+        bottom : 45,
         width:"100%"
 
       }
       ,
       subtitle: {
         fontSize: 10,
+        textAlign: 'center',
       },
       taglineCTA:{
         textDecorationLine: 'underline',
+        textAlign:"center"
       }
 });
 
