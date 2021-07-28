@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
         
     },
     button:{
-        margin : 4,
+        margin : 6,
         height: 32,
         textAlign: 'center',
         borderRadius: 50,
